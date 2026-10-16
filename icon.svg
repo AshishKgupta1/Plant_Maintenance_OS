@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+    <linearGradient id="pellet" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fb923c" />
+      <stop offset="100%" stop-color="#ea580c" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="108" fill="url(#bg)" />
+  <g transform="translate(64, 64)">
+    <!-- Industrial Cog -->
+    <path d="M192 76 L212 76 L218 108 L238 116 L264 96 L278 110 L258 136 L266 156 L298 162 L298 182 L266 188 L258 208 L278 234 L264 248 L238 228 L218 236 L212 268 L192 268 L186 236 L166 228 L140 248 L126 234 L146 208 L138 188 L106 182 L106 162 L138 156 L146 136 L126 110 L140 96 L166 116 L186 108 Z" 
+          fill="none" stroke="url(#accent)" stroke-width="14" stroke-linejoin="round" />
+    <circle cx="202" cy="172" r="44" fill="#0f172a" stroke="url(#accent)" stroke-width="12" />
+    
+    <!-- Pellet Sphere Indicator with heat sheen -->
+    <circle cx="270" cy="245" r="52" fill="url(#pellet)" />
+    <circle cx="254" cy="230" r="14" fill="#fed7aa" opacity="0.6" />
+    
+    <!-- Maintenance Wrench Accent -->
+    <path d="M80 270 L140 330 M70 280 L130 340" stroke="#94a3b8" stroke-width="10" stroke-linecap="round" />
+    <path d="M60 250 C50 260 50 280 65 295 C80 310 100 310 110 300 L95 285 C90 288 82 288 77 283 C72 278 72 270 75 265 Z" fill="#94a3b8" />
+  </g>
+</svg>
